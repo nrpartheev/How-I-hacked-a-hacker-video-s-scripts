@@ -12,10 +12,6 @@ def search_string_in_files(root_folder, search_string):
                         if search_string in line:
                             print(line)
                             print(f"Found in file: {file_path}, Line: {line_number}")
-                            print('')
-                            print('')
-                            print('')
-                            print('')
                             
             except Exception as e:
                 print(f"Could not read file {file_path}. Error: {e}")
